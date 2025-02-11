@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root{
+	--color-general: #333;
+	--color-titulos: #333;
+	--fondo-gris: #f3f3f3;
+	--color-rojo: #af221d;
+	--fondo-footer: #333;
+	--letra-footer: #fff;
+}
+
+body{
+	font-family: "Rubik", serif;
+}
+#hero{
+	background-image: url("../img/bg-valentines.jpg");
+	background-size: cover;
+	padding: 16% 0;
+	padding-left: 6%;
+	color: #fff;
+	font-family: "Poppins", serif !important;
+}
+
+#hero h1{
+	font-weight: 600;
+	font-size: 52px;
+}
+
+#hero p{
+	font-size: 14px;
+	padding-bottom: 3%;
+}
+
+.espacito{
+	padding: 1% 0;
+}
+.btn-rojo{
+	color: #fff;
+	background-color: var(--color-rojo);
+	text-transform: uppercase;
+	border-radius: 0;
+	font-size: 12px;
+	font-weight: 600;
+	padding: 10px 45px;
+}
+
+p.iz-poco{
+	margin-bottom: 30px;
+}
+
+p.move{
+	margin-bottom: 50px;
+}
+
+.padding-section{
+	padding: 7% 0;
+}
+
+.letrita-roja{
+	color: var(--color-rojo);
+	font-size:11px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.subtitulos{
+	color:var(--color-titulos);
+	font-size: 30px;
+	
+}
+
+.textito{
+	color:var(--color-general);
+	font-size: 12px;
+}
+
+i{
+	font-size: 28px;
+	color: #78A0A5;
+}
+
+.lista{
+	color:var(--color-general);
+	font-size: 14px;
+	font-weight:600;
+}
+
+.subtitulos.peque{
+	font-size: 20px;
+}
+
+#guarantee h2{
+	margin-top: 20%;
+	margin-left: 10%;
+}
+#guarantee h3{
+	margin-left: 10%;
+}
+#guarantee p.move{
+	margin-left: 10%;
+}
+
+#guarantee i{ 
+  margin-left: 60px;;
+}
+
+#guarantee h4{
+	margin-left: 5px;
+}
+
+#guarantee .iz-poco{
+	margin-left: 5px;
+	margin-bottom: 30px;
+}
+
+#balance{
+	background-color: #F3F3F3;
+}
+
+#balance h2{
+	margin-top: 25px;
+}
+
+#balance img{
+	margin-top: 25px;
+}
+
+#guidance{
+	background-color: #F3F3F3;
+	padding: 9%;
+}
+
+#about-us p{
+	margin-right: 50px;
+	margin-bottom: 30px;
+}
+
+footer{
+	background-color: var(--fondo-footer);
+	color: #fff;
+	padding: 7% 0;
+}
+
+h5.titulos-foot{
+	font-size: 18px;
+	margin-bottom: 40px;
+}
+
+
+h6.texto-foot{
+	font-size: 12px;
+	font-weight: 400;
+}
+
+
